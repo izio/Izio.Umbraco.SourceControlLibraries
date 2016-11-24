@@ -1,0 +1,2 @@
+# Don't ignore created nuget packages
+!*.nupkg
