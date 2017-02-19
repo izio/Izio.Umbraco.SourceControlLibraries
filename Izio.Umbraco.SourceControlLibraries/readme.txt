@@ -1,0 +1,2 @@
+﻿All dlls will be copied to a folder titled 'Libraries', if you would like to change the backup folder please update the 'Config/SourceControlLibraries.config' file.
+By default package actions will not be executed when restoring libraries, however you can change this by editig the 'Config/SourceControlLibraries.config' file and changing the node ExecutePackageActions to true.
