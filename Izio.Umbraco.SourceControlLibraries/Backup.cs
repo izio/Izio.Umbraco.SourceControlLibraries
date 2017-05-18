@@ -29,7 +29,7 @@ namespace Izio.Umbraco.SourceControlLibraries
             {
                 var fileName = Path.GetFileName(library);
 
-                if (configuration.Libraries.Contains(fileName) == false)
+                if (installedLibraries.Contains(fileName) == false)
                 {
                     File.Delete(library);
 
